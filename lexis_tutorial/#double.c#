@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(void){
+  float x=10000;
+  float y= 0.001;
+  float z= -0.0001;
+  printf("scientific notation of x: %e", x);
+  printf("Scientific notation of y: %e", y);
+  printf("Scientific notation of z: %e", z);
+  return 0;
+}
